@@ -12,3 +12,12 @@ def adicionar_tarefa():
     tarefa = input("Digite a nova tarefa: ")
     tarefas.append(tarefa)
     print("✅ Tarefa adicionada!")
+    
+def remover_tarefa():
+    mostrar_tarefas()
+    try:
+        indice = int(input("Digite o número da tarefa para remover: "))
+        tarefas.pop(indice - 1)
+        print("❌ Tarefa removida!")
+    except (ValueError, IndexError):
+        print("Número inválido!")
