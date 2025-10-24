@@ -1,7 +1,7 @@
 tarefas = []
 
 def mostrar_tarefas():
-    print("\n📋 Lista de Tarefas:")
+    print("Lista de Tarefas:")
     if not tarefas:
         print("Nenhuma tarefa adicionada.")
     else:
@@ -11,24 +11,24 @@ def mostrar_tarefas():
 def adicionar_tarefa():
     tarefa = input("Digite a nova tarefa: ")
     tarefas.append(tarefa)
-    print("✅ Tarefa adicionada!")
+    print("Tarefa adicionada!")
 
 def remover_tarefa():
     mostrar_tarefas()
     try:
         indice = int(input("Digite o número da tarefa para remover: "))
         tarefas.pop(indice - 1)
-        print("❌ Tarefa removida!")
+        print("Tarefa removida!")
     except (ValueError, IndexError):
         print("Número inválido!")
 
 while True:
-    print("\n✨ To-Do List em Python ✨")
+    print("To-Do List em Python")
     print("1 - Mostrar tarefas")
     print("2 - Adicionar tarefa")
     print("3 - Remover tarefa")
     print("0 - Sair")
-    opcao = input("Escolha uma opção: ")
+    opcao = input("Escolha uma opcao: ")
 
     if opcao == "1":
         mostrar_tarefas()
