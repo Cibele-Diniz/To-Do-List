@@ -23,7 +23,11 @@ def remover_tarefa():
         print("Número inválido!")
 
 while True:
+<<<<<<< HEAD
     print("To-Do List")
+=======
+    print("To-Do List em Python")
+>>>>>>> ee09924ce502b46b2203f1f77330615d6b017072
     print("1 - Mostrar tarefas")
     print("2 - Adicionar tarefa")
     print("3 - Remover tarefa")

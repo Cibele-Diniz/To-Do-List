@@ -1,6 +1,6 @@
 # ✨ To-Do List em Python  
 
-Um simples e elegante aplicativo de **lista de tarefas** feito em **Python**, criado para treinar lógica de programação e manipulação de listas no terminal. 🐍  
+Uma simples **lista de tarefas** feita em **Python**, criada para treinar lógica de programação e manipulação de listas no terminal. 🐍  
 
 ---
 
